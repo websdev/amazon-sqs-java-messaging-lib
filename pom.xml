@@ -4,6 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>nexus-releases</id>
+      <name>Nexus Releases Repository</name>
+      <url>http://nexus.digital.vistaprint.io/repository/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>nexus-snapshots</id>
+      <name>Nexus Snapshots Repository</name>
+      <url>http://nexus.digital.vistaprint.io/repository/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  
   <groupId>com.webs</groupId>
   <artifactId>amazon-sqs-java-messaging-lib</artifactId>
   <version>1.0.5</version>

@@ -9,7 +9,10 @@ podTemplate(
                         name: 'java',
                         image: 'java:8-jdk',
                         ttyEnabled: true,
-                        command: 'cat'
+                        command: 'cat',
+                        envVars: [
+                                secretEnvVar(key: 'NEXUS_ADMIN_PASSWORD', secretName: 'shared-secret', secretKey: 'NEXUS_ADMIN_PASSWORD')
+                        ]
                 ),
         ]
 ) {
