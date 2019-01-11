@@ -13,9 +13,9 @@ for communicating with Amazon Simple Queue Service. This project builds on top o
 * **Download** — Download the [latest release](https://github.com/awslabs/amazon-sqs-java-messaging-lib/releases) or pick it up from Maven:
 ```xml
   <dependency>
-    <groupId>com.amazonaws</groupId>
+    <groupId>com.webs</groupId>
     <artifactId>amazon-sqs-java-messaging-lib</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <type>jar</type>
   </dependency>
 ```
