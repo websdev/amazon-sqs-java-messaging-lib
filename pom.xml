@@ -53,7 +53,7 @@
   </developers>
 
   <properties>
-    <aws-java-sdk.version>1.11.106</aws-java-sdk.version>
+    <aws-java-sdk.version>1.11.931</aws-java-sdk.version>
   </properties>
 
   <dependencies>
